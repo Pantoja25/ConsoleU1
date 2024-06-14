@@ -16,6 +16,7 @@
 				Console.WriteLine("Digite sua SENHA: ");
 				senha = Console.ReadLine();
 
+				Console.WriteLine("Digite NOVAMENTE");
 			} while (!usuario.Logar(login, senha));
 
 		}
